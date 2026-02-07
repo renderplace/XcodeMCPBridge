@@ -54,7 +54,7 @@ The package includes a companion CLI executable (`mcpbridge-cli`) that bridges y
 # project.yml (XcodeGen)
 packages:
   XcodeMCPBridge:
-    url: https://github.com/YOUR_ORG/XcodeMCPBridge.git
+    url: https://github.com/renderplace/XcodeMCPBridge.git
     from: "1.0.0"
 
 targets:
@@ -193,6 +193,12 @@ Pre-built reducer handling the full lifecycle. Actions:
 - `.disconnectTapped` — Disconnect
 
 State includes `status`, `serverInfo`, `error`, `isConnected`, and `statusText`.
+
+## Demo App
+
+A fully working example app built with this package is available at:
+
+**[XcodeMCPSwiftApp](https://github.com/renderplace/XcodeMCPSwiftApp)** — a macOS SwiftUI app that uses `XcodeMCPBridge` to connect to Xcode's MCP bridge, browse all available tools, fill parameters, and execute them. Great as a reference for integrating this package into your own app.
 
 ---
 
